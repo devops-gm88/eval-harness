@@ -1,0 +1,612 @@
+{
+  "generated_at": "2026-11-25",
+  "generated_by": "scripts/make_results.py",
+  "dataset": {
+    "name": "rag-eval-demo published eval set",
+    "source": "github.com/devops-gm88/rag-eval-demo",
+    "fixtures": [
+      "fixtures/rag_eval_questions.json",
+      "fixtures/eval_baseline.json",
+      "fixtures/eval_improved.json"
+    ],
+    "cases": 33,
+    "answerable": 30,
+    "must_refuse": 3,
+    "corpus_documents": 57,
+    "description": "30 answerable questions and 3 unanswerable questions over the 57-document corpus.",
+    "runs": [
+      "baseline",
+      "improved"
+    ]
+  },
+  "runs": {
+    "baseline": {
+      "metrics": {
+        "recall_at_k": {
+          "hits": 28,
+          "n": 30,
+          "rate": 0.9333,
+          "k": 5
+        },
+        "citation_correct": {
+          "hits": 25,
+          "n": 30,
+          "rate": 0.8333
+        },
+        "completeness": {
+          "hits": 26,
+          "n": 30,
+          "rate": 0.8667
+        },
+        "passed": {
+          "hits": 25,
+          "n": 30,
+          "rate": 0.8333
+        },
+        "refusal_accuracy": {
+          "correct": 3,
+          "n": 3,
+          "rate": 1.0
+        }
+      },
+      "rows": [
+        {
+          "id": "Q01",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q02",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q03",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q04",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q05",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q06",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q07",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q08",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q09",
+          "recall_at_k": true,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": false
+        },
+        {
+          "id": "Q10",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q11",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": false
+        },
+        {
+          "id": "Q12",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q13",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": false
+        },
+        {
+          "id": "Q14",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q15",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q16",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q17",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q18",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q19",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q20",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q21",
+          "recall_at_k": true,
+          "citation_correct": false,
+          "completeness": true,
+          "passed": false
+        },
+        {
+          "id": "Q22",
+          "recall_at_k": true,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": false
+        },
+        {
+          "id": "Q23",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q24",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q25",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q26",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q27",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q28",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q29",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q30",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "U01",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": true
+        },
+        {
+          "id": "U02",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": true
+        },
+        {
+          "id": "U03",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": true
+        }
+      ]
+    },
+    "improved": {
+      "metrics": {
+        "recall_at_k": {
+          "hits": 28,
+          "n": 30,
+          "rate": 0.9333,
+          "k": 5
+        },
+        "citation_correct": {
+          "hits": 27,
+          "n": 30,
+          "rate": 0.9
+        },
+        "completeness": {
+          "hits": 27,
+          "n": 30,
+          "rate": 0.9
+        },
+        "passed": {
+          "hits": 27,
+          "n": 30,
+          "rate": 0.9
+        },
+        "refusal_accuracy": {
+          "correct": 3,
+          "n": 3,
+          "rate": 1.0
+        }
+      },
+      "rows": [
+        {
+          "id": "Q01",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q02",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q03",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q04",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q05",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q06",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q07",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q08",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q09",
+          "recall_at_k": true,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": false
+        },
+        {
+          "id": "Q10",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q11",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": false
+        },
+        {
+          "id": "Q12",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q13",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": false
+        },
+        {
+          "id": "Q14",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q15",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q16",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q17",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q18",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q19",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q20",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q21",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q22",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q23",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q24",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q25",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q26",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q27",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q28",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q29",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "Q30",
+          "recall_at_k": true,
+          "citation_correct": true,
+          "completeness": true,
+          "passed": true
+        },
+        {
+          "id": "U01",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": true
+        },
+        {
+          "id": "U02",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": true
+        },
+        {
+          "id": "U03",
+          "recall_at_k": false,
+          "citation_correct": false,
+          "completeness": false,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "delta": {
+    "delta": 0.0667,
+    "ci95": [
+      0.0,
+      0.1667
+    ],
+    "resamples": 10000,
+    "pairs": 30,
+    "seed": 20261126,
+    "excludes_zero": false
+  },
+  "negative_control": {
+    "separated": true,
+    "p_value": 0.000999,
+    "detail": {
+      "observed": 0.9091,
+      "null_mean": 0.0391,
+      "null_median": 0.0303,
+      "null_p95": 0.0909,
+      "null_max": 0.1818,
+      "permutations": 1000,
+      "seed": 20261126,
+      "alpha": 0.05,
+      "cases": 33
+    }
+  },
+  "conformance": {
+    "source": "github.com/devops-gm88/rag-eval-demo",
+    "published": {
+      "baseline": {
+        "recall_at_5": "28/30",
+        "citation_correct": "25/30",
+        "answer_complete": "26/30",
+        "passed": "25/30",
+        "refusals_correct": "3/3"
+      },
+      "improved": {
+        "recall_at_5": "28/30",
+        "citation_correct": "27/30",
+        "answer_complete": "27/30",
+        "passed": "27/30",
+        "refusals_correct": "3/3"
+      }
+    },
+    "reproduced": {
+      "baseline": {
+        "recall_at_5": "28/30",
+        "citation_correct": "25/30",
+        "answer_complete": "26/30",
+        "passed": "25/30",
+        "refusals_correct": "3/3"
+      },
+      "improved": {
+        "recall_at_5": "28/30",
+        "citation_correct": "27/30",
+        "answer_complete": "27/30",
+        "passed": "27/30",
+        "refusals_correct": "3/3"
+      }
+    },
+    "matches": true
+  }
+}
